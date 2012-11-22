@@ -1,0 +1,23 @@
+body > header[role="banner"] {
+  background: $header-bg image-url('header_bg.png') top left;
+  text-align: center;
+  border-top: solid 5px #1f2323;
+  hgroup {
+    h1 {
+      font-family: 'Lobster', cursive;
+      font-size: 3em;
+      margin-bottom: 0;
+      a, a:visited, a:hover {
+        color: $title_color;
+        text-decoration: none;
+      }
+    }
+    h2 {
+      font-family: 'Lobster', cursive;
+      @extend .sans;
+      font-size: 1.2em;
+      color: $subtitle-color;
+      font-weight: normal;
+    }
+  }
+}
