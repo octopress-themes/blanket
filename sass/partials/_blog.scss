@@ -118,7 +118,7 @@ article + article {
     &:hover {
       background: $link-color-hover;
       text-shadow: none;
-      color: main-bg;
+      color: $main-bg;
     }
   }
   footer {
